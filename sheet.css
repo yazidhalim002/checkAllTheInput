@@ -1,0 +1,32 @@
+body {
+  min-height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: .25rem;
+  padding: 1rem 45px;
+  margin: 20px;
+}
+
+#submit{
+	position: relative;
+	left: 120px;
+background-color: blue;
+    color: white;
+}
+
+#submit.move {
+  transition: left 0.5s ease-in;
+  left: 120px;
+  
+}
+
+#submit.stop {
+
+  left: 0px;
+}
